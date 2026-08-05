@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — AionForge</title>
+  <meta name="description" content="About AionForge, an independent game studio building Minecraft packs, worlds, and creative tools.">
+  <meta name="theme-color" content="#132942">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="AionForge home">
+        <img src="assets/mark.svg" width="36" height="36" alt="" class="brand-mark">
+        <span class="brand-name">AionForge</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="press.html">Press</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">About</p>
+        <h1>A studio built around craft</h1>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="container prose">
+        <p>
+          AionForge is an independent game studio focused on Minecraft packs, playable worlds, and the
+          creative tools that make production faster without lowering the bar.
+        </p>
+        <p>
+          We care about systems players can feel, assets that hold up under real use, and packaging that
+          is simple to install and maintain. The goal is straightforward: ship work that is worth loading.
+        </p>
+        <h2>What guides the work</h2>
+        <ul>
+          <li><strong>Clarity first</strong> — players should understand what they got and how to use it.</li>
+          <li><strong>Production quality</strong> — release-ready packaging, not throwaway demos.</li>
+          <li><strong>Long-term maintainability</strong> — content designed to evolve cleanly.</li>
+          <li><strong>Honest status</strong> — public pages stay current with real project state.</li>
+        </ul>
+        <h2>Stack &amp; presence</h2>
+        <p>
+          Public source and studio projects live under
+          <a href="https://github.com/AionForgeStudio" rel="noopener noreferrer">github.com/AionForgeStudio</a>.
+          This website is hosted with GitHub Pages and can later move under a custom domain such as
+          <strong>aionforge.com</strong> without changing the underlying hosting model.
+        </p>
+        <p>
+          Need a human? Visit the <a href="contact.html">contact page</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <strong>AionForge</strong>
+        <span>Independent game studio</span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="press.html">Press</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://github.com/AionForgeStudio" rel="noopener noreferrer">GitHub</a>
+      </nav>
+      <p class="footer-meta">© <span id="year">2026</span> AionForge. Hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

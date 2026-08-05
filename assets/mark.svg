@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AionForge mark">
+  <rect width="64" height="64" rx="14" fill="#132942"/>
+  <path d="M16 44 L32 14 L48 44 Z" fill="none" stroke="#d8bb76" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M24 44 L32 28 L40 44" fill="none" stroke="#f3eadf" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="20" y="46" width="24" height="3" rx="1.5" fill="#d8bb76"/>
+</svg>

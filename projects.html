@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects — AionForge</title>
+  <meta name="description" content="Projects and release status from AionForge studio.">
+  <meta name="theme-color" content="#132942">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="AionForge home">
+        <img src="assets/mark.svg" width="36" height="36" alt="" class="brand-mark">
+        <span class="brand-name">AionForge</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="about.html">About</a>
+        <a href="press.html">Press</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Projects</p>
+        <h1>Work in progress and upcoming releases</h1>
+        <p>This page will grow with screenshots, trailers, download links, and changelogs as each project becomes public.</p>
+      </div>
+    </section>
+
+    <section class="container project-grid">
+      <article class="project-card">
+        <span class="meta">Flagship</span>
+        <h3>Studio slate — wave one</h3>
+        <p>
+          Core Minecraft pack production is underway. Public names, trailers, and download pages will be published
+          here when they are ready for external eyes.
+        </p>
+        <span class="badge">In production</span>
+      </article>
+
+      <article class="project-card">
+        <span class="meta">Platform</span>
+        <h3>AionForge studio site</h3>
+        <p>
+          The public home for project pages, development updates, documentation, and press materials —
+          hosted on GitHub Pages with room for a custom domain later.
+        </p>
+        <span class="badge">Live</span>
+      </article>
+
+      <article class="project-card">
+        <span class="meta">Docs</span>
+        <h3>Player &amp; creator documentation</h3>
+        <p>
+          Install guides, feature notes, and creator-facing documentation will be linked from each project page
+          as content solidifies.
+        </p>
+        <span class="badge">Planned</span>
+      </article>
+
+      <article class="project-card">
+        <span class="meta">Media</span>
+        <h3>Screenshots &amp; trailers</h3>
+        <p>
+          High-quality capture stills and short trailers will land with each public project announcement.
+          Until then, this slot marks the pipeline.
+        </p>
+        <span class="badge">Planned</span>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <strong>AionForge</strong>
+        <span>Independent game studio</span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="press.html">Press</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://github.com/AionForgeStudio" rel="noopener noreferrer">GitHub</a>
+      </nav>
+      <p class="footer-meta">© <span id="year">2026</span> AionForge. Hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
